@@ -4,7 +4,7 @@ import { h, IS_BROWSER, PageConfig, tw, useState } from "../deps.ts";
 export default function Home() {
   return (
     <div>
-      <p>
+      <p id="title">
         Welcome to `fresh`. Try update this message in the ./pages/index.tsx
         file, and refresh.
       </p>
